@@ -1,0 +1,99 @@
+/* Container for the RegisterStudent form */
+.register-student {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the form */
+  .register-student h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form fields */
+  .register-student label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Input fields and selects */
+  .register-student input[type="text"],
+  .register-student input[type="email"],
+  .register-student input[type="number"],
+  .register-student select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .register-student input[type="text"]:disabled,
+  .register-student input[type="email"]:disabled,
+  .register-student input[type="number"]:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+  }
+  
+  .register-student select {
+    padding: 8px;
+  }
+  
+  /* Button for form submission */
+  .register-student button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-student button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Success and Error messages */
+  .success-message,
+  .error-message {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .success-message {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .error-message {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Additional spacing between form elements */
+  .register-student label,
+  .register-student input,
+  .register-student select,
+  .register-student button {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,90 @@
+.student-profile-container {
+    display: flex; /* Use flexbox for row layout */
+    width: 100%; /* Take up full container width */
+    margin-bottom: 20px; /* Space between cards */
+  }
+  
+  .student-profile-card {
+    flex: 0 0 75%; /* Take up 85% of the width */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-info {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .student-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .student-header h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .email {
+    font-size: 1rem;
+    color: #007bff;
+    margin-left: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .status.active {
+    color: green;
+  }
+  
+  .status.inactive {
+    color: red;
+  }
+  
+  .status.other {
+    color: orange;
+  }
+  
+  .student-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* The student actions take up the remaining 15% width */
+  .student-actions {
+    flex: 0 0 20%; /* Take up 15% of the width */
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the start */
+    gap: 10px; /* Space between the buttons */
+    align-items: center; /* Vertically center the buttons */
+  }
+  
+  /* Button styles */
+  .student-actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    width: 100%; /* Makes the buttons take up the same width */
+    max-width: 120px; /* Optional: Set a max width for the buttons to avoid them becoming too large */
+  }
+  
+  .student-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .student-actions button:focus {
+    outline: none; /* Removes focus outline */
+  }
+  

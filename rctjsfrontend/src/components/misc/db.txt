@@ -1,0 +1,24 @@
+CREATE TABLE `users` (
+	`id_number` VARCHAR(50) NOT NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`password` VARCHAR(255) NOT NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`fname` VARCHAR(255) NOT NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`mname` VARCHAR(50) NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`lname` VARCHAR(50) NOT NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`suffix` VARCHAR(50) NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`email` VARCHAR(50) NOT NULL DEFAULT '' COLLATE 'utf8mb4_0900_ai_ci',
+	`usertype` INT(10) NOT NULL,
+	`department` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`program` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`section` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`year` TINYINT(3) NULL DEFAULT NULL,
+	`otp` INT(10) NULL DEFAULT NULL,
+	`otp_generated` TIMESTAMP NULL DEFAULT NULL,
+	`last_sent` TIMESTAMP NULL DEFAULT NULL,
+	`session_token` VARCHAR(255) NULL DEFAULT NULL COLLATE 'utf8mb4_0900_ai_ci',
+	`force_password_change` TINYINT(1) NULL DEFAULT '1',
+	PRIMARY KEY (`id_number`) USING BTREE,
+	UNIQUE INDEX `id_number` (`id_number`) USING BTREE
+)
+COLLATE='utf8mb4_0900_ai_ci'
+ENGINE=InnoDB
+;

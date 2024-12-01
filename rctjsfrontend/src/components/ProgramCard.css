@@ -1,0 +1,68 @@
+.program-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .program-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .manage-program-btn,
+  .add-course-btn {
+    background-color: #ffc107;
+    color: black;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .manage-program-btn:hover,
+  .add-course-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .course-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .edit-course-btn,
+  .delete-course-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .edit-course-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-course-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-course-btn:hover {
+    background-color: #b02a37;
+  }
+  

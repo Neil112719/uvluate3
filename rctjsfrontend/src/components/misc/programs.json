@@ -1,0 +1,202 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "CETA",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Civil Engineering",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Electrical Engineering",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Architecture",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Mechanical Engineering",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "COME",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Computer Science",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Information Technology",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Information Systems",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Information Science",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "CRIM",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Criminology",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "CBA",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Business Administration",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Accounting",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Marketing",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "CAHS",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Nursing",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Pharmacy",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Medical Technology",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "COED",
+      "programs": [
+        {
+          "id": 1,
+          "name": "Elementary Education",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Secondary Education",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Physical Education",
+          "sections": [
+            { "id": 1, "name": "Section A" },
+            { "id": 2, "name": "Section B" },
+            { "id": 3, "name": "Section C" }
+          ]
+        }
+      ]
+    }
+  ]
+}
